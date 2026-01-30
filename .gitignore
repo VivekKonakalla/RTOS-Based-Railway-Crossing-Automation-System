@@ -1,55 +1,67 @@
-# Prerequisites
-*.d
-
-# Object files
-*.o
-*.ko
-*.obj
+# STM32CubeIDE / STM32CubeMX generated files
+Debug/
+Release/
 *.elf
-
-# Linker output
-*.ilk
+*.hex
+*.bin
 *.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
+*.lst
+*.su
+*.d
+*.o
+*.obj
+*.dep
+*.cmake
+*.launch
+*.s
+*.i
+*.srec
+*.axf
+*.out
+*.exe
 *.dll
 *.so
-*.so.*
-*.dylib
+*.a
+*.lib
+*.exp
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+# CubeIDE workspace & metadata
+.metadata/
+.settings/
+.cproject
+.project
+.mxproject
+STM32CubeIDE.*
+*.code-workspace
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
+# Temporary / backup files
+*.bak
+*.swp
+*.swo
+*~
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Build directories (common variants)
+build/
+out/
+bin/
+obj/
+*.build/
+*.binaries/
 
-# debug information files
-*.dwo
+# FreeRTOS / Middleware generated
+Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_*.c  # keep only the one you use
+Middlewares/ST/STM32_USB_Device_Library/
+Middlewares/ST/STM32_USB_Host_Library/
+
+# Keep these (unignore if accidentally ignored)
+!.gitignore
+!README.md
+!LICENSE
+!report/
+!code/
+!images/
+!presentation/
