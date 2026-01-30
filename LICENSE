@@ -1,30 +1,21 @@
+MIT License
 
-### Final Steps to Upload Everything
+Copyright (c) 2026 A. Rohith Naga Sai, Dhanush Gowda K, Kapil Rajgopal, Konakalla Vivek Sri Krishna Chaitanya
 
-1. **Create the Repository** (if not done yet)  
-   Name: `RTOS-Based-Railway-Crossing-Automation-System` or `Railway-Gate-STM32-RTOS`  
-   Description: “PG-DESD Final Project – Automated Railway Level Crossing using STM32H7 & FreeRTOS (C-DAC Bangalore 2025–2026)”  
-   Public + Add MIT License + Add .gitignore (C/C++ or STM32 template)
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-2. **Upload Files**  
-   - Upload `README.md` first (copy the Markdown above)  
-   - Upload `LICENSE` (copy MIT text)  
-   - Upload `.gitignore` (copy content above)  
-   - Create folders: `report/`, `code/bare-metal/`, `code/freertos/`, `images/`  
-   - Drag & drop your PDF report, CubeIDE folders, images
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-3. **Add Topics** (Settings → General → Topics)  
-   `stm32`, `freertos`, `embedded-systems`, `railway-automation`, `servo-control`, `ultrasonic-sensor`, `pg-desd`, `cdac`, `real-time-systems`
-
-4. **Pin to Profile**  
-   Go to your GitHub profile → “Customize your pins” → pin this repo
-
-5. **Optional – GitHub Pages** (to have a nice project website)  
-   Settings → Pages → Source: Deploy from branch → main → /root → Save  
-   Get URL like: https://yourusername.github.io/RTOS-Based-Railway-Crossing-Automation-System/
-
-You now have a **very professional, recruiter-attractive GitHub repo** — clean structure, beautiful README, proper license, and all content safely shared.
-
-Let me know when you’ve uploaded it — I can review the link if you share it, or help with any last-minute tweaks!  
-
-Congratulations on completing your project — this will look great in your portfolio. 🚀
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
