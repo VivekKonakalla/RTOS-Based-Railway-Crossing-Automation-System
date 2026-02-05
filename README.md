@@ -38,29 +38,27 @@ RTOS-Based-Railway-Crossing-Automation-System/
 ├── LICENSE                       # MIT License
 ├── .gitignore                    # Ignores STM32CubeIDE build files
 │
-├── report/
-│   └── PG-DESD_Final_Report.pdf  # Complete final report (PDF)
+├── Report/
+│   └── PG-DESD_Final_Report.pdf  # Complete final report
 │
-├── code/
-│   ├── bare-metal/               # STM32CubeIDE project – non-RTOS version
+├── Code/
+│   ├── Bare-Metal/               # STM32CubeIDE project – non-RTOS version
 │   │   ├── RailwayCrossing.ioc
-│   │   ├── Core/
-│   │   └── Drivers/
+│   │   └── main.c
 │   │
-│   └── freertos/                 # STM32CubeIDE project – FreeRTOS version
+│   └── FreeRTOS/                 # STM32CubeIDE project – FreeRTOS version
 │       ├── RailwayCrossingRTOS.ioc
-│       ├── Core/
-│       └── Middlewares/Third_Party/FreeRTOS/
+│       └── main.c
 │
-├── images/                       # All diagrams & screenshots
-│   ├── fig1.1_block_diagram.png
-│   ├── fig4.1_architecture.png
-│   ├── fig5.1_pin_config.png
-│   ├── fig5.3_state_diagram.png
-│   ├── uart_log_screenshot.png
-│   └── project_hardware_photo.jpg
+├── Images/                       # All diagrams & screenshots
+│   ├── Fig. 1.1   Block diagram of the automated railway level crossing system 
+│   ├── Fig. 4.1   High-level system architecture (bare-metal vs RTOS) 
+│   ├── Fig. 5.1   MCU pin configuration in STM32CubeIDE 
+│   ├── Fig. 5.3   State transition diagram of the system
+│   ├── Fig. 6.3.1   Photograph of the demonstrated project prototype
+│   └── Fig. 6.3.2   Screenshot of UART log showing independent gate pause (RTOS)
 │
-└── presentation/                 # Optional – presentation slides
+└── Presentation/                 # Presentation slides
     └── PG-DESD_Presentation.pptx
 
 ## Hardware Requirements
