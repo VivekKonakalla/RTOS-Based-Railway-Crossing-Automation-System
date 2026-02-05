@@ -31,15 +31,37 @@ The RTOS version uses tasks, event flags, mutexes, and queues for true concurren
 - Detailed UART logging (115200 baud)  
 
 ## Repository Structure
-├── README.md
-├── LICENSE
+
+```text
+RTOS-Based-Railway-Crossing-Automation-System/
+├── README.md                     # Project overview & documentation
+├── LICENSE                       # MIT License
+├── .gitignore                    # Ignores STM32CubeIDE build files
+│
 ├── report/
-│   └── PG-DESD_Final_Report.pdf
+│   └── PG-DESD_Final_Report.pdf  # Complete final report (PDF)
+│
 ├── code/
-│   ├── bare-metal/         ← STM32CubeIDE project (non-RTOS)
-│   └── freertos/           ← STM32CubeIDE project (RTOS)
-├── images/                 ← Diagrams & screenshots
-└── presentation/           ← Optional slides
+│   ├── bare-metal/               # STM32CubeIDE project – non-RTOS version
+│   │   ├── RailwayCrossing.ioc
+│   │   ├── Core/
+│   │   └── Drivers/
+│   │
+│   └── freertos/                 # STM32CubeIDE project – FreeRTOS version
+│       ├── RailwayCrossingRTOS.ioc
+│       ├── Core/
+│       └── Middlewares/Third_Party/FreeRTOS/
+│
+├── images/                       # All diagrams & screenshots
+│   ├── fig1.1_block_diagram.png
+│   ├── fig4.1_architecture.png
+│   ├── fig5.1_pin_config.png
+│   ├── fig5.3_state_diagram.png
+│   ├── uart_log_screenshot.png
+│   └── project_hardware_photo.jpg
+│
+└── presentation/                 # Optional – presentation slides
+    └── PG-DESD_Presentation.pptx
 
 ## Hardware Requirements
 - Nucleo-STM32H753ZI board  
